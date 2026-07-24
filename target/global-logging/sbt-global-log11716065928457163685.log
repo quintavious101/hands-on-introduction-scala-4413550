@@ -1,0 +1,102 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+[debug] Load.defaultLoad until apply took 190.09278ms
+[debug]                 Load.loadUnit: plugins took 177.27133ms
+[debug]                 Load.loadUnit: defsScala took 0.23609ms
+[debug] [Loading] Scanning directory /workspaces/hands-on-introduction-scala-4413550/project/project
+[debug]                   Load.loadUnit: mkEval took 27.534564ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /workspaces/hands-on-introduction-scala-4413550/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 13.441479 ms
+[info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(hands-on-introduction-scala-4413550-build-build) took 38.228321ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id hands-on-introduction-scala-4413550-build-build, base: /workspaces/hands-on-introduction-scala-4413550/project/project, plugins: List(<none>))) took 57.738544ms
+[debug] [Loading] Done in /workspaces/hands-on-introduction-scala-4413550/project/project, returning: (hands-on-introduction-scala-4413550-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 4053.385797ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 28.954859ms
+[debug]               Load.loadUnit(file:/workspaces/hands-on-introduction-scala-4413550/project/project/, ...) took 4271.899074ms
+[debug]             Load.apply: load took 4421.329387ms
+[debug]             Load.apply: resolveProjects took 4.242827ms
+[debug]             Load.apply: finalTransforms took 76.301011ms
+[debug]             Load.apply: config.delegates took 8.57042ms
+[debug]             Load.apply: Def.make(settings)... took 695.338989ms
+[debug]             Load.apply: structureIndex took 117.772878ms
+[debug]             Load.apply: mkStreams took 1.354848ms
+[info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] 
+[warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+[warn] 		org.scalameta:sbt-metals:1.6.8 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+[error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+[error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

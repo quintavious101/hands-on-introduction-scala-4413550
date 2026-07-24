@@ -1,0 +1,23 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 6 __32f14c01-df87-4e1d-b28a-e9b2a34f7228, None, None)
+[debug] > Exec(bspScalaMainClasses file:/workspaces/hands-on-introduction-scala-4413550/#root/Test file:/workspaces/hands-on-introduction-scala-4413550/#root-build file:/workspaces/hands-on-introduction-scala-4413550/#root/Compile, Some(__32f14c01-df87-4e1d-b28a-e9b2a34f7228), Some(CommandSource(network-2)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/scalaMainClasses"})
+[debug] Evaluating tasks: bspScalaMainClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] buildTarget/scalaMainClasses is a no-op for build.sbt targets: [BuildTargetIdentifier(file:/workspaces/hands-on-introduction-scala-4413550/#root-build)]
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"6","parents":[]},"eventTime":1784903837081,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"6","parents":[]},"eventTime":1784903837081,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"6","parents":[]},"eventTime":1784903837111,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Compile"},"errors":0,"warnings":0,"time":30}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"6","parents":[]},"eventTime":1784903837111,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Compile"},"errors":0,"warnings":0,"time":30}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"7","parents":[]},"eventTime":1784903837133,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"7","parents":[]},"eventTime":1784903837133,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"7","parents":[]},"eventTime":1784903837169,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Test"},"errors":0,"warnings":0,"time":36}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"7","parents":[]},"eventTime":1784903837169,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/workspaces/hands-on-introduction-scala-4413550/#root/Test"},"errors":0,"warnings":0,"time":36}})
+[success] Total time: 0 s, completed Jul 24, 2026, 2:37:17 PM
+[debug] > Exec(sbtCompleteExec 6, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 6, Some(6), Some(CommandSource(network-2)))
+[debug] unmatched Processing event for requestId Some(6): None
+[debug] unmatched json response for requestId Some(6): {"status":"Done","channelName":"network-2","execId":"6","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

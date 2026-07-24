@@ -1,0 +1,1149 @@
+2026.07.23 20:30:01 INFO  Started: Metals version 1.6.8 in folders '/workspaces/hands-on-introduction-scala-4413550' for client Visual Studio Code 1.130.0.
+2026.07.23 20:30:01 INFO  Memory monitor started
+2026.07.23 20:30:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.23 20:30:03 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:10 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:24 INFO  running '/usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall'
+2026.07.23 20:30:28 INFO  [info] Updated file /workspaces/hands-on-introduction-scala-4413550/project/build.properties: set sbt.version to 1.8.0
+2026.07.23 20:30:28 INFO  [info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:30:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:28 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:32 INFO  [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.23 20:30:33 INFO  [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:30:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:36 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:36 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:37 INFO  [warn] 
+2026.07.23 20:30:37 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2026.07.23 20:30:37 INFO  [warn] 		ch.epfl.scala:sbt-bloop:2.1.1 (sbtVersion=1.0, scalaVersion=2.12)
+2026.07.23 20:30:37 INFO  [warn] 
+2026.07.23 20:30:37 INFO  [warn] 	Note: Unresolved dependencies path:
+2026.07.23 20:30:37 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading ch.epfl.scala:sbt-bloop;sbtVersion=1.0;scalaVersion=2.12:2.1.1
+2026.07.23 20:30:37 INFO  [error]   Not found
+2026.07.23 20:30:37 INFO  [error]   Not found
+2026.07.23 20:30:37 INFO  [error]   not found: https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.1.1/sbt-bloop-2.1.1.pom
+2026.07.23 20:30:37 INFO  [error]   not found: /root/.ivy2/localch.epfl.scala/sbt-bloop/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+2026.07.23 20:30:37 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/ch.epfl.scala/sbt-bloop/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+2026.07.23 20:30:37 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/ch.epfl.scala/sbt-bloop/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+2026.07.23 20:30:37 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2026.07.23 20:30:37 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2026.07.23 20:30:37 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2026.07.23 20:30:37 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2026.07.23 20:30:37 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+2026.07.23 20:30:37 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.Execute.work(Execute.scala:291)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2026.07.23 20:30:37 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2026.07.23 20:30:37 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:30:37 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.07.23 20:30:37 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:30:37 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.07.23 20:30:37 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.07.23 20:30:37 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2026.07.23 20:30:37 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading ch.epfl.scala:sbt-bloop;sbtVersion=1.0;scalaVersion=2.12:2.1.1
+2026.07.23 20:30:37 INFO  [error]   Not found
+2026.07.23 20:30:37 INFO  [error]   Not found
+2026.07.23 20:30:37 INFO  [error]   not found: https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.1.1/sbt-bloop-2.1.1.pom
+2026.07.23 20:30:37 INFO  [error]   not found: /root/.ivy2/localch.epfl.scala/sbt-bloop/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+2026.07.23 20:30:37 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/ch.epfl.scala/sbt-bloop/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+2026.07.23 20:30:37 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/ch.epfl.scala/sbt-bloop/scala_2.12/sbt_1.0/2.1.1/ivys/ivy.xml
+2026.07.23 20:30:37 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:30:38 INFO  time: ran 'sbt bloopInstall' in 13s
+2026.07.23 20:30:38 ERROR sbt command failed: /usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall
+2026.07.23 20:30:38 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:38 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:44 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:44 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:44 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 23, 2026 8:30:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2026.07.23 20:30:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:47 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:49 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:49 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:50 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:51 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:30:51 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:52 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:57 INFO  running '/usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall'
+2026.07.23 20:30:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:30:57 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/metals.sbt
+2026.07.23 20:30:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:00 INFO  [info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:31:03 INFO  [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.23 20:31:04 INFO  [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:11 INFO  [info] loading settings for project hands-on-introduction-scala-4413550-build from metals.sbt ...
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:11 INFO  [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 23, 2026 8:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 128
+2026.07.23 20:31:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:13 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:13 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:13 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:13 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:15 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:15 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:15 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:16 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:20 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:20 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 23, 2026 8:31:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 174
+2026.07.23 20:31:20 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:20 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:20 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:20 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:24 INFO  [success] Generated .bloop/hands-on-introduction-scala-4413550-build.json
+2026.07.23 20:31:24 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:24 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:24 INFO  [success] Total time: 13 s, completed Jul 23, 2026, 8:31:24 PM
+2026.07.23 20:31:24 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:26 INFO  [info] loading settings for project root from build.sbt ...
+2026.07.23 20:31:26 INFO  [info] set current project to root (in build file:/workspaces/hands-on-introduction-scala-4413550/)
+2026.07.23 20:31:26 INFO  [success] Generated .bloop/root.json
+2026.07.23 20:31:26 INFO  [success] Generated .bloop/root-test.json
+2026.07.23 20:31:26 INFO  [success] Total time: 0 s, completed Jul 23, 2026, 8:31:27 PM
+2026.07.23 20:31:27 INFO  time: ran 'sbt bloopInstall' in 30s
+2026.07.23 20:31:27 INFO  sbt 1.8.0 found for workspace.
+2026.07.23 20:31:27 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/metals.sbt
+2026.07.23 20:31:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:32 INFO  [info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:31:33 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:33 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:33 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:33 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:33 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:39 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:39 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:39 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:39 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:39 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:40 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:40 INFO  [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project
+2026.07.23 20:31:40 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:40 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:40 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:41 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:43 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:42 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:43 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:43 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:43 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:43 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:43 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:44 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:45 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:47 INFO  [info] loading settings for project root from build.sbt ...
+2026.07.23 20:31:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:47 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:46 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:47 INFO  [info] set current project to hands-on-scala (in build file:/workspaces/hands-on-introduction-scala-4413550/)
+2026.07.23 20:31:47 INFO  [success] Total time: 0 s, completed Jul 23, 2026, 8:31:47 PM
+2026.07.23 20:31:48 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:48 INFO  time: ran 'sbt bspConfig' in 20s
+2026.07.23 20:31:48 INFO  Attempting to connect to the build server...
+2026.07.23 20:31:48 INFO  Running BSP server List(/opt/java/openjdk/bin/java, -Xms100m, -Xmx100m, -classpath, /usr/share/sbt/bin/sbt-launch.jar, -Dsbt.script=/usr/local/bin/sbt, xsbt.boot.Boot, -bsp)
+2026.07.23 20:31:48 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /workspaces/hands-on-introduction-scala-4413550/.metals/bsp.trace.json or /root/.cache/metals/bsp.trace.json
+2026.07.23 20:31:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:48 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/metals.sbt
+2026.07.23 20:31:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:48 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  BSP server: [info] server was not detected. starting an instance
+2026.07.23 20:31:50 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:51 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:51 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 23, 2026 8:31:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 432
+2026.07.23 20:31:52 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:52 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:52 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:52 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:53 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/build.sbt
+2026.07.23 20:31:53 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:53 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:57 INFO  BSP server: [info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:31:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:31:58 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:32:01 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.23 20:32:02 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:32:06 INFO  BSP server: [warn] 
+2026.07.23 20:32:06 INFO  BSP server: [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2026.07.23 20:32:06 INFO  BSP server: [warn] 		org.scalameta:sbt-metals:1.6.8 (sbtVersion=1.0, scalaVersion=2.12)
+2026.07.23 20:32:06 INFO  BSP server: [warn] 
+2026.07.23 20:32:06 INFO  BSP server: [warn] 	Note: Unresolved dependencies path:
+2026.07.23 20:32:06 INFO  BSP server: [error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+2026.07.23 20:32:06 INFO  BSP server: [error]   Not found
+2026.07.23 20:32:06 INFO  BSP server: [error]   Not found
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.Execute.work(Execute.scala:291)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.07.23 20:32:06 INFO  BSP server: [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2026.07.23 20:32:06 INFO  BSP server: [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+2026.07.23 20:32:06 INFO  BSP server: [error]   Not found
+2026.07.23 20:32:06 INFO  BSP server: [error]   Not found
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:32:06 INFO  BSP server: [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:32:06 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:32:06 INFO  BSP server: Invalid response: 'C'
+2026.07.23 20:32:06 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:32:06 INFO  BSP server: Invalid response: 'o'
+2026.07.23 20:32:06 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:32:06 INFO  BSP server: Invalid response: 'n'
+2026.07.23 20:32:06 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:32:48 ERROR Timeout waiting for 'build/initialize' response
+2026.07.23 20:32:48 WARN  Retrying connection to the build server sbt
+2026.07.23 20:32:48 INFO  Running BSP server List(/opt/java/openjdk/bin/java, -Xms100m, -Xmx100m, -classpath, /usr/share/sbt/bin/sbt-launch.jar, -Dsbt.script=/usr/local/bin/sbt, xsbt.boot.Boot, -bsp)
+2026.07.23 20:32:48 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /workspaces/hands-on-introduction-scala-4413550/.metals/bsp.trace.json or /root/.cache/metals/bsp.trace.json
+2026.07.23 20:32:49 INFO  BSP server: [info] server was not detected. starting an instance
+2026.07.23 20:32:54 INFO  BSP server: [info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:32:55 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.23 20:32:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:32:57 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:32:59 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:33:00 INFO  BSP server: [warn] 
+2026.07.23 20:33:00 INFO  BSP server: [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2026.07.23 20:33:00 INFO  BSP server: [warn] 		org.scalameta:sbt-metals:1.6.8 (sbtVersion=1.0, scalaVersion=2.12)
+2026.07.23 20:33:00 INFO  BSP server: [warn] 
+2026.07.23 20:33:00 INFO  BSP server: [warn] 	Note: Unresolved dependencies path:
+2026.07.23 20:33:00 INFO  BSP server: [error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+2026.07.23 20:33:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:33:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.Execute.work(Execute.scala:291)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.07.23 20:33:00 INFO  BSP server: [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2026.07.23 20:33:00 INFO  BSP server: [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+2026.07.23 20:33:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:33:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:33:00 INFO  BSP server: [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 'C'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 'o'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 'n'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 't'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 'e'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 'n'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:00 INFO  BSP server: Invalid response: 't'
+2026.07.23 20:33:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:33:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:33:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:33:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:33:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:33:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:33:48 ERROR Timeout waiting for 'build/initialize' response
+2026.07.23 20:33:48 WARN  Retrying connection to the build server sbt
+2026.07.23 20:33:48 INFO  Running BSP server List(/opt/java/openjdk/bin/java, -Xms100m, -Xmx100m, -classpath, /usr/share/sbt/bin/sbt-launch.jar, -Dsbt.script=/usr/local/bin/sbt, xsbt.boot.Boot, -bsp)
+2026.07.23 20:33:48 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /workspaces/hands-on-introduction-scala-4413550/.metals/bsp.trace.json or /root/.cache/metals/bsp.trace.json
+2026.07.23 20:33:49 INFO  BSP server: [info] server was not detected. starting an instance
+2026.07.23 20:33:54 INFO  BSP server: [info] welcome to sbt 1.8.0 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:33:55 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.23 20:33:56 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:33:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:34:00 INFO  BSP server: [warn] 
+2026.07.23 20:34:00 INFO  BSP server: [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2026.07.23 20:34:00 INFO  BSP server: [warn] 		org.scalameta:sbt-metals:1.6.8 (sbtVersion=1.0, scalaVersion=2.12)
+2026.07.23 20:34:00 INFO  BSP server: [warn] 
+2026.07.23 20:34:00 INFO  BSP server: [warn] 	Note: Unresolved dependencies path:
+2026.07.23 20:34:00 INFO  BSP server: [error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+2026.07.23 20:34:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:34:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.Execute.work(Execute.scala:291)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.07.23 20:34:00 INFO  BSP server: [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2026.07.23 20:34:00 INFO  BSP server: [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-metals;sbtVersion=1.0;scalaVersion=2.12:1.6.8
+2026.07.23 20:34:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:34:00 INFO  BSP server: [error]   Not found
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-metals_2.12_1.0/1.6.8/sbt-metals-1.6.8.pom
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: /root/.ivy2/localorg.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:34:00 INFO  BSP server: [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-metals/scala_2.12/sbt_1.0/1.6.8/ivys/ivy.xml
+2026.07.23 20:34:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:34:00 INFO  BSP server: Invalid response: 'C'
+2026.07.23 20:34:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:34:00 INFO  BSP server: Invalid response: 'o'
+2026.07.23 20:34:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:34:00 INFO  BSP server: Invalid response: 'n'
+2026.07.23 20:34:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:34:00 INFO  BSP server: Invalid response: 't'
+2026.07.23 20:34:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:34:00 INFO  BSP server: Invalid response: 'e'
+2026.07.23 20:34:00 INFO  BSP server: [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2026.07.23 20:34:48 ERROR Timeout waiting for 'build/initialize' response
+2026.07.23 20:34:48 WARN  Retrying connection to the build server sbt
+2026.07.23 20:34:48 INFO  Running BSP server List(/opt/java/openjdk/bin/java, -Xms100m, -Xmx100m, -classpath, /usr/share/sbt/bin/sbt-launch.jar, -Dsbt.script=/usr/local/bin/sbt, xsbt.boot.Boot, -bsp)
+2026.07.23 20:34:48 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /workspaces/hands-on-introduction-scala-4413550/.metals/bsp.trace.json or /root/.cache/metals/bsp.trace.json
+2026.07.23 20:34:49 INFO  BSP server: [info] [launcher] getting org.scala-sbt sbt 1.9.2  (this may take some time)...
+2026.07.23 20:34:53 INFO  BSP server: [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2026.07.23 20:34:53 INFO  BSP server: [info] server was not detected. starting an instance
+2026.07.23 20:34:59 INFO  BSP server: [info] welcome to sbt 1.9.2 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.23 20:35:03 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.23 20:35:04 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.23 20:35:08 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build from metals.sbt ...
+2026.07.23 20:35:08 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project
+2026.07.23 20:35:12 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2026.07.23 20:35:12 INFO  BSP server: [info] set current project to hands-on-scala (in build file:/workspaces/hands-on-introduction-scala-4413550/)
+2026.07.23 20:35:12 INFO  BSP server: [info] sbt server started at local:///root/.sbt/1.0/server/c9f7dec58dd8a2ff1f45/sock
+2026.07.23 20:35:12 INFO  BSP server: [info] started sbt server
+2026.07.23 20:35:13 INFO  Processing workspace/reload
+2026.07.23 20:35:13 INFO  compiling hands-on-introduction-scala-4413550-build-build
+2026.07.23 20:35:13 INFO  compiling hands-on-introduction-scala-4413550-build
+2026.07.23 20:35:14 INFO  time: Connected to build server in 3m26s
+2026.07.23 20:35:14 INFO  Connected to Build server: sbt v1.9.2
+2026.07.23 20:35:14 INFO  Processing workspace/buildTargets
+2026.07.23 20:35:16 INFO  Processing buildTarget/scalacOptions
+2026.07.23 20:35:16 INFO  Processing buildTarget/sources
+2026.07.23 20:35:16 INFO  Processing buildTarget/dependencySources
+2026.07.23 20:35:21 INFO  time: Imported build in 6.33s
+2026.07.23 20:35:21 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2
+2026.07.23 20:35:27 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+Jul 23, 2026 8:35:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 458
+2026.07.23 20:35:39 INFO  Processing buildTarget/compile
+2026.07.23 20:35:42 INFO  Processing buildTarget/compile
+2026.07.23 20:35:45 INFO  time: code lens generation in 5.55s
+2026.07.23 20:35:45 INFO  Processing buildTarget/jvmRunEnvironment
+2026.07.23 20:35:45 INFO  time: code lens generation in 5.75s
+2026.07.23 20:35:45 INFO  time: code lens generation in 4.1s
+2026.07.23 20:35:45 INFO  Processing buildTarget/jvmRunEnvironment
+2026.07.23 20:35:45 INFO  Processing buildTarget/jvmRunEnvironment
+2026.07.23 20:36:03 INFO  time: indexed workspace in 41s
+2026.07.23 20:36:03 INFO  Processing buildTarget/scalaTestClasses
+2026.07.23 20:36:03 INFO  compiling root
+2026.07.23 20:36:03 INFO  time: compiled root in 68ms
+2026.07.23 20:36:03 INFO  compiling root-test
+2026.07.23 20:36:03 INFO  time: compiled root-test in 19ms
+2026.07.23 20:36:03 INFO  Processing buildTarget/scalaMainClasses
+2026.07.23 20:36:03 INFO  compiling root
+2026.07.23 20:36:03 INFO  time: compiled root in 17ms
+2026.07.23 20:36:03 INFO  compiling root-test
+2026.07.23 20:36:03 INFO  time: compiled root-test in 16ms
+2026.07.23 20:36:03 INFO  Processing buildTarget/compile
+2026.07.23 20:36:04 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:36:04 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:04 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:04 INFO  Processing buildTarget/jvmRunEnvironment
+2026.07.23 20:36:10 INFO  Processing workspace/reload
+2026.07.23 20:36:10 INFO  compiling hands-on-introduction-scala-4413550-build-build
+2026.07.23 20:36:10 INFO  compiling hands-on-introduction-scala-4413550-build
+2026.07.23 20:36:12 INFO  Processing buildTarget/jvmRunEnvironment
+2026.07.23 20:36:12 INFO  Processing workspace/buildTargets
+2026.07.23 20:36:13 INFO  Processing buildTarget/compile
+2026.07.23 20:36:13 INFO  Processing buildTarget/scalacOptions
+2026.07.23 20:36:13 INFO  Processing buildTarget/sources
+2026.07.23 20:36:13 INFO  Processing buildTarget/dependencySources
+2026.07.23 20:36:16 INFO  time: Imported build in 4.05s
+2026.07.23 20:36:24 INFO  time: indexed workspace in 7.65s
+2026.07.23 20:36:24 INFO  Correctly reloaded workspace
+2026.07.23 20:36:24 INFO  Processing buildTarget/scalaMainClasses
+2026.07.23 20:36:24 INFO  compiling root
+2026.07.23 20:36:25 INFO  time: compiled root in 1.15s
+2026.07.23 20:36:25 INFO  compiling root-test
+2026.07.23 20:36:25 INFO  time: compiled root-test in 3ms
+2026.07.23 20:36:25 INFO  Processing buildTarget/scalaTestClasses
+2026.07.23 20:36:25 INFO  compiling root
+2026.07.23 20:36:25 INFO  time: compiled root in 7ms
+2026.07.23 20:36:25 INFO  compiling root-test
+2026.07.23 20:36:25 INFO  time: compiled root-test in 9ms
+2026.07.23 20:36:27 INFO  Processing buildTarget/jvmRunEnvironment
+2026.07.23 20:36:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:31 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:36:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:31 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:31 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:31 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+Jul 23, 2026 8:36:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:54 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 23, 2026 8:36:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 531
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:55 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:56 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:58 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:58 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:58 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:59 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:36:59 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:59 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:59 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:59 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:59 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:59 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:36:59 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:36:59 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:00 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:00 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:01 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:01 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:01 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:02 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:02 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:02 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:02 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:02 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:02 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:03 INFO  Processing workspace/reload
+2026.07.23 20:37:03 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:03 INFO  compiling hands-on-introduction-scala-4413550-build-build
+2026.07.23 20:37:03 ERROR Unable to reload workspace: Type error in expression
+2026.07.23 20:37:03 INFO  Skipping reload with status 'Failed'
+2026.07.23 20:37:03 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:05 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:05 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:07 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:08 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:09 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:09 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:09 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:08 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:10 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:09 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:09 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:11 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:11 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:11 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:11 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:11 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:13 INFO  Processing buildTarget/compile
+2026.07.23 20:37:13 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:13 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:13 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:12 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:14 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:14 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:13 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:13 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:14 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:14 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:16 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:17 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:16 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:17 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:17 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:17 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:18 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:18 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:18 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:18 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:19 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:19 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:18 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:19 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:21 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:23 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:22 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:23 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:24 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:24 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:24 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:24 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:24 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:24 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:23 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:25 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:25 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:25 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:25 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:25 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:25 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:26 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:26 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:26 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:25 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:25 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:25 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:26 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:26 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:27 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:28 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:28 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:28 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:28 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:29 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:29 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:30 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:30 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:31 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:31 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:31 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:31 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:31 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:32 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:33 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:33 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:32 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:32 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:33 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:33 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:34 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:35 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:36 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:36 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:37 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.23 20:37:37 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:37 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:37 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:37:37 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.23 20:37:38 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.23 20:38:13 INFO  Processing buildTarget/compile
+2026.07.23 20:39:13 INFO  Processing buildTarget/compile
+2026.07.23 20:40:13 INFO  Processing buildTarget/compile
+2026.07.23 20:41:13 INFO  Processing buildTarget/compile
+2026.07.23 20:42:13 INFO  Processing buildTarget/compile
+2026.07.23 20:43:13 INFO  Processing buildTarget/compile
+2026.07.23 20:44:13 INFO  Processing buildTarget/compile
+2026.07.23 20:45:13 INFO  Processing buildTarget/compile
+2026.07.23 20:46:13 INFO  Processing buildTarget/compile
+2026.07.24 14:35:11 INFO  Started: Metals version 1.6.8 in folders '/workspaces/hands-on-introduction-scala-4413550' for client Visual Studio Code 1.130.0.
+2026.07.24 14:35:11 INFO  Memory monitor started
+2026.07.24 14:35:18 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.24 14:35:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:35:21 INFO  Attempting to connect to the build server...
+2026.07.24 14:35:21 INFO  Running BSP server List(/opt/java/openjdk/bin/java, -Xms100m, -Xmx100m, -classpath, /usr/share/sbt/bin/sbt-launch.jar, -Dsbt.script=/usr/local/bin/sbt, xsbt.boot.Boot, -bsp)
+2026.07.24 14:35:21 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /workspaces/hands-on-introduction-scala-4413550/.metals/bsp.trace.json or /root/.cache/metals/bsp.trace.json
+2026.07.24 14:35:29 INFO  BSP server: [info] server was not detected. starting an instance
+2026.07.24 14:35:33 INFO  BSP server: [info] welcome to sbt 1.9.2 (Eclipse Adoptium Java 17.0.4.1)
+2026.07.24 14:35:35 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build-build from metals.sbt ...
+2026.07.24 14:35:36 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project/project
+2026.07.24 14:35:42 INFO  BSP server: [info] loading settings for project hands-on-introduction-scala-4413550-build from metals.sbt,plugins.sbt ...
+2026.07.24 14:35:42 INFO  BSP server: [info] loading project definition from /workspaces/hands-on-introduction-scala-4413550/project
+2026.07.24 14:35:49 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2026.07.24 14:35:49 INFO  BSP server: [info] set current project to hands-on-scala (in build file:/workspaces/hands-on-introduction-scala-4413550/)
+2026.07.24 14:35:49 INFO  BSP server: [info] sbt server started at local:///root/.sbt/1.0/server/c9f7dec58dd8a2ff1f45/sock
+2026.07.24 14:35:50 INFO  time: Connected to build server in 28s
+2026.07.24 14:35:50 INFO  Connected to Build server: sbt v1.9.2
+2026.07.24 14:35:50 INFO  Processing workspace/buildTargets
+2026.07.24 14:35:50 INFO  Processing buildTarget/scalacOptions
+2026.07.24 14:35:50 INFO  Processing buildTarget/sources
+2026.07.24 14:35:50 INFO  Processing buildTarget/dependencySources
+2026.07.24 14:35:53 INFO  time: Imported build in 2.86s
+2026.07.24 14:35:54 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 24, 2026 2:35:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:35:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:35:57 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:36:00 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.24 14:36:05 INFO  time: indexed workspace in 12s
+2026.07.24 14:36:05 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.24 14:36:05 INFO  Processing buildTarget/scalaMainClasses
+2026.07.24 14:36:05 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:36:06 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.24 14:36:06 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:36:06 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:05 INFO  compiling root
+2026.07.24 14:36:05 INFO  time: compiled root in 69ms
+2026.07.24 14:36:05 INFO  compiling root-test
+2026.07.24 14:36:05 INFO  time: compiled root-test in 8ms
+2026.07.24 14:36:05 INFO  Processing buildTarget/scalaTestClasses
+2026.07.24 14:36:05 INFO  compiling root
+2026.07.24 14:36:05 INFO  time: compiled root in 18ms
+2026.07.24 14:36:05 INFO  compiling root-test
+2026.07.24 14:36:05 INFO  time: compiled root-test in 15ms
+2026.07.24 14:36:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:18 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 24, 2026 2:36:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:36:19 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+Jul 24, 2026 2:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jul 24, 2026 2:36:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:36:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:21 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:21 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:36:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 24, 2026 2:36:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:36:27 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:49 INFO  Started: Metals version 1.6.8 in folders '/workspaces/hands-on-introduction-scala-4413550' for client Visual Studio Code 1.130.0.
+2026.07.24 14:36:49 INFO  Memory monitor started
+2026.07.24 14:36:50 INFO  Processing buildTarget/compile
+2026.07.24 14:36:50 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.24 14:36:50 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:51 INFO  Attempting to connect to the build server...
+2026.07.24 14:36:51 INFO  Running BSP server List(/opt/java/openjdk/bin/java, -Xms100m, -Xmx100m, -classpath, /usr/share/sbt/bin/sbt-launch.jar, -Dsbt.script=/usr/local/bin/sbt, xsbt.boot.Boot, -bsp)
+2026.07.24 14:36:52 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /workspaces/hands-on-introduction-scala-4413550/.metals/bsp.trace.json or /root/.cache/metals/bsp.trace.json
+2026.07.24 14:36:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 24, 2026 2:36:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:36:57 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:36:59 INFO  time: Connected to build server in 8.15s
+2026.07.24 14:36:59 INFO  Connected to Build server: sbt v1.9.2
+2026.07.24 14:37:00 INFO  Processing workspace/buildTargets
+2026.07.24 14:37:00 INFO  Processing buildTarget/scalacOptions
+2026.07.24 14:37:01 INFO  Processing buildTarget/sources
+2026.07.24 14:37:01 INFO  Processing buildTarget/dependencySources
+Jul 24, 2026 2:37:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:37:03 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+Jul 24, 2026 2:37:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.24 14:37:07 INFO  time: Imported build in 7.71s
+2026.07.24 14:37:09 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:37:10 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:37:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.24 14:37:16 INFO  time: indexed workspace in 9.2s
+2026.07.24 14:37:16 INFO  Processing buildTarget/scalaMainClasses
+2026.07.24 14:37:16 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.24 14:37:16 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:37:16 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2026.07.24 14:37:16 WARN  no build target for: /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:37:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:37:17 INFO  compiling root
+2026.07.24 14:37:16 INFO  compiling root
+2026.07.24 14:37:16 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:37:17 INFO  time: compiled root in 60ms
+2026.07.24 14:37:17 INFO  compiling root-test
+2026.07.24 14:37:17 INFO  time: compiled root-test in 19ms
+2026.07.24 14:37:16 INFO  time: compiled root in 94ms
+2026.07.24 14:37:16 INFO  compiling root-test
+2026.07.24 14:37:16 INFO  time: compiled root-test in 13ms
+2026.07.24 14:37:16 INFO  Processing buildTarget/scalaTestClasses
+2026.07.24 14:37:16 INFO  compiling root2026.07.24 14:37:17 INFO  compiling root
+
+2026.07.24 14:37:16 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:37:16 INFO  time: compiled root in 20ms
+2026.07.24 14:37:17 INFO  time: compiled root in 22ms
+2026.07.24 14:37:16 INFO  compiling root-test
+2026.07.24 14:37:17 INFO  compiling root-test
+2026.07.24 14:37:16 INFO  time: compiled root-test in 17ms
+2026.07.24 14:37:17 INFO  time: compiled root-test in 24ms
+2026.07.24 14:37:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.07.24 14:37:19 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
