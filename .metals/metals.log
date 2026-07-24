@@ -1147,3 +1147,6 @@ INFO: Unsupported notification method: $/setTrace
 2026.07.24 14:37:17 INFO  time: compiled root-test in 24ms
 2026.07.24 14:37:19 INFO  no build target found for /workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.8
 2026.07.24 14:37:19 WARN  Could not find semantic tokens for: file:///workspaces/hands-on-introduction-scala-4413550/project/plugins.sbt
+2026.07.24 14:37:50 INFO  Processing buildTarget/compile
+2026.07.24 14:37:59 INFO  Processing buildTarget/compile
+2026.07.24 14:38:50 INFO  Processing buildTarget/compile
