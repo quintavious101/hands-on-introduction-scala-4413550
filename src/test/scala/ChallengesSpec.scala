@@ -4,7 +4,24 @@ import org.scalatest.matchers.should.Matchers
 import Challenges._
 
 class ChallengesSpec extends AnyFreeSpec with Matchers {
-  "calculateSum" - {}
+  "calculateSum" - {
+    "returns the correct sum for a list of positive numbers" in {
+      val inputNumbers = List(1, 2, 3, 4, 5)
+      calculateSum(inputNumbers) shouldEqual 15
+    }
+    "returns 0" in {
+      val inputNumbers = List.empty
+      calculateSum(inputNumbers) shouldEqual 0
+    }
+    "returns the correct sum for a list of negative numbers" in {
+      val inputNumbers = List(-1, -2, -3, -4, -5)
+      calculateSum(inputNumbers) shouldEqual -15
+    }
+    "returns the correct sum for a list of both positive and negative numbers" in {
+      val inputNumbers = List(-1, 2, -3, 4, -5)
+      calculateSum(inputNumbers) shouldEqual -3
+    }
+  }
 
   "filterAndConvert" - {
     "filters names with less than four characters and converts them to uppercase" in {
